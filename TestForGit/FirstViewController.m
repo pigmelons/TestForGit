@@ -28,13 +28,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 200, 30)];
+    label.text = @"CreatedByCC";
+    label.font = [UIFont boldSystemFontOfSize:20];
+    [self.view addSubview:label];
+    [label release];
 }
 
 @end
