@@ -21,6 +21,8 @@
     {
         self.title = NSLocalizedString(@"First", @"First");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        
+        
     }
     return self;
 }
